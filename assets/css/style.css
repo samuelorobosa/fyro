@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	color: white;
+	font-size: 14px;
+	background-color: hsl(218, 28%, 13%);
+}
+
+
+/*Reusable Components*/
+
+.raleway__font{
+	font-family: 'Raleway', sans-serif;
+}
+
+.opensans__font{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.button{
+	border: none;
+	padding: 0.9rem 2.5rem;
+	border-radius: 10rem;
+	color: white;
+	background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+}
+
+.button:focus{
+	outline: none;
+}
+
+
+/***************Intro****************/
+.intro, #navbar{
+	background-color: hsl(217, 28%, 15%);
+}
+
+
+.intro h2{
+	font-weight: 600;
+}
+
+.intro div:last-child{
+	background-image: url("../img/bg-curvy-desktop.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 10.5rem;
+}
+
+
+
+
+/********************Testimonials*********************/
+
+.testimonials{
+	background-color: hsl(219, 30%, 18%);
+	z-index: 99999;
+}
+
+.quotes{
+	position: absolute;
+	top: -2rem;
+	z-index: 1;
+}
+
+/***********Sign Up Section***********/
+
+form input{
+	padding: 0.9rem 2.5rem;
+	border-radius: 10rem;
+	border: none;
+	outline: none;
+}
+
+form{
+	background-color: hsl(217, 28%, 15%);
+	border-radius: 10px;
+	margin-bottom: -3rem;
+
+}
+
+
+
+/***************footer**********/
+
+.footer{
+	background-color: hsl(216, 53%, 9%);
+}
+
+.icons{
+	border: 1px solid #fff;
+	border-radius: 50%;
+	padding: 0.3rem;
+}
